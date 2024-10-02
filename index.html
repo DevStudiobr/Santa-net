@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online Municipal</title>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Loja Online Municipal</h1>
+    <form id="produto-form">
+        <input type="text" id="whatsapp" placeholder="Seu WhatsApp" required>
+        <input type="text" id="nome-produto" placeholder="Nome do Produto" required>
+        <input type="number" id="preco" placeholder="Preço" required>
+        <input type="url" id="imagem" placeholder="URL da Imagem (opcional)">
+        <button type="submit">Adicionar Produto</button>
+    </form>
+    <div id="produtos-lista"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
